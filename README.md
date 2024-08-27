@@ -38,7 +38,13 @@ This is a survey application built using HTML, CSS, and JavaScript for the front
     npm install
     ```
 
-3. **Set up the environment variables:**
+3. **Install nodemon (if not already installed globally):**
+
+    ```bash
+    npm install -g nodemon
+    ```
+
+4. **Set up the environment variables:**
 
     Create a `.env` file in the root directory with the following content (replace the placeholder values with your actual values):
 
@@ -58,7 +64,7 @@ This is a survey application built using HTML, CSS, and JavaScript for the front
     EMAIL_PASSWORD=""           # Email password for sending emails (e.g., SMTP service)
     ```
 
-4. **Set up the PostgreSQL database:**
+5. **Set up the PostgreSQL database:**
 
     - Log in to your PostgreSQL server:
 
@@ -112,12 +118,12 @@ This is a survey application built using HTML, CSS, and JavaScript for the front
       );
       ```
 
-5. **Start the application:**
+6. **Start the application:**
 
     ```bash
     nodemon index.js
     ```
 
-6. **Access the application:**
+7. **Access the application:**
 
     - Visit `http://localhost:3000` in your browser to use the application.
